@@ -184,16 +184,12 @@
         font-weight: 700;
       }
       .mark {
-        width: 32px;
-        height: 32px;
-        display: grid;
-        place-items: center;
-        border-radius: 6px;
-        background: var(--fg);
-        color: var(--bg);
-        font-family: var(--font-mono);
-        font-size: 12px;
-        font-weight: 500;
+        width: 36px;
+        height: 36px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+        flex-shrink: 0;
       }
       nav {
         display: flex;
@@ -850,7 +846,7 @@
     <header class="top">
       <div class="wrap">
         <a class="brand" href="#top">
-          <img class="mark" src="profile.jpg" alt="Mahesh Solanki" />
+          <img class="mark" src="profile.png" alt="Mahesh Solanki" />
           <span>Mahesh Solanki</span>
         </a>
         <nav aria-label="Sections">
